@@ -61,6 +61,11 @@ function UrunEkle() {
                         Ürünü Ekle
                     </button>
                 </form>
+
+                </form>  
+                <button className="btn btn-primary" onClick={() => dispatch(Actions.urunAksiyon.urunEkle(form))}>
+                    Ürünü Ekle
+                </button>
                 <Link to="/">ANASAYFA</Link>{" "}
             </div>
         </div>
