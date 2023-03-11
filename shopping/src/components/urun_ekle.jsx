@@ -57,10 +57,6 @@ function UrunEkle() {
                         <input type="file" name="image" onChange={degisim} className="form-control" id="inputGroup-sizing-sm" />
                     </div>
 
-                    <button className="btn btn-primary" onClick={() => dispatch(Actions.urunAksiyon.urunEkle(form))}>
-                        Ürünü Ekle
-                    </button>
-                </form>
 
                 </form>  
                 <button className="btn btn-primary" onClick={() => dispatch(Actions.urunAksiyon.urunEkle(form))}>
